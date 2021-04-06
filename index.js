@@ -5,15 +5,15 @@ const rpc = new RPC.Client({
 
 rpc.on("ready",() => {
     rpc.setActivity({
-        details: "Giga",
+        // details: "",
         // state: "",
         // largeImageKey: "",
         // largeImageText: "",
         // smallImageKey: "",
         // smallImageText: "",
-        // buttons: [{}],
-        // startTimestamp: "",
-        // endTimestamp: "",
+        //buttons: [],
+        // startTimestamp: 0,
+        // endTimestamp: 0,
         // partyId: "",
         // partySize: "",
         // partyMax: "",
