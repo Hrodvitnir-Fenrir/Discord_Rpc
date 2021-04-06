@@ -3,13 +3,6 @@ const rpc = new RPC.Client({
     transport: "ipc"
 });
 
-/**
-Remove "//" before line if you whant use it
-Dont keep empty without "//" before you can have errors
-
- 
- 
- */
 rpc.on("ready",() => {
     rpc.setActivity({
         //details: "hum",   // This is the first line under the name of the game
@@ -20,9 +13,13 @@ rpc.on("ready",() => {
         //smallImageText: "",   // This is the text when your cursor are on the small image
         //buttons: [{ label: "B1", url: "https://store.steampowered.com" }, {label: "B2", url: "https://www.google.com"},],    // You can have 2 buttons 
         //startTimestamp: "",
-        
-        
-
+        //endTimestamp: "",
+        //partyId: "",
+        //partySize: "",
+        //partyMax: "",
+        //matchSecret: "",
+        //joinSecret: "",
+        //spectateSecret: "",
     });
     console.log("Rich presence is now active");
 });
