@@ -3,15 +3,22 @@ const rpc = new RPC.Client({
     transport: "ipc"
 });
 
+/**
+Remove "//" before line if you whant use it
+Details a
+ 
+ 
+ 
+ */
 rpc.on("ready",() => {
     rpc.setActivity({
-        details: "Test",
-        state: "test2",
-        largeImageKey: "r6",
+        details: "hum",
+        //state: "",
+        //largeImageKey: "",
         //largeImageText: "",
         //smallImageKey: "",
         //smallImageText: "",
-        buttons: [{ label: "test 3", url: "https://store.steampowered.com" }],
+        //buttons: [{ label: "test 3", url: "https://store.steampowered.com" }],
         //startTimestamp: "",
         
         
