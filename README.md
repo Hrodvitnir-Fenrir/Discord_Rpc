@@ -6,5 +6,5 @@ Discord rich presence in js with all custom
     - Create new app name it, copy your "application id" and add images in "Rich Presence" Tab if u whant
 
 - Remove "//" before line if you whant use it
-    Dont keep empty without "//" before you can have errors
-    test line
+Dont keep empty without "//" before you can have errors
+test line
