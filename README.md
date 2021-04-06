@@ -7,3 +7,4 @@ Discord rich presence in js with all custom
 
 - Remove "//" before line if you whant use it
     Dont keep empty without "//" before you can have errors
+    test line
