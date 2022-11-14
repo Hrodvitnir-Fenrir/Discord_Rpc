@@ -16,9 +16,9 @@ Discord rich presence in js with full customisation
 | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | details                 | This is the first line under the name of the game                                                                                                                             |
 | state                   | This is the second line under the details, you can't have this line without details !                                                                                         |
-| largeImageKey           | This is the name of the large image in your app on discord website.                                                                                                           |
+| largeImageKey           | This is the link you add for the big picture, It can be host on imgur.com for exemple, and this support gif.                                                                                                           |
 | largeImageText          | This is the text when your cursor are on the large image.                                                                                                                     |
-| smallImageKey           | This is the name of the small image in your app on discord website, you can't have this images without the large image !                                                      |
+| smallImageKey           | This is the link of the small image, you can't have this images without the large image !                                                      |
 | smallImageText          | This is the text when your cursor are on the small image.                                                                                                                     |
 | bouttons                | This is an array to add 1 or 2 interactive buttons and attatch a link. <br> Ex: ```{label: "Steam", url: "https://store.steampowered.com"}```                                 |
 | startTimestamp          | This is to setup the start time with timestamp. You can get timestamp [here](https://www.epochconverter.com/) <br> You can only have start or end. Not both at the same time. |
