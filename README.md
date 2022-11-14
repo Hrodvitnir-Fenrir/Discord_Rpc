@@ -24,3 +24,4 @@ Discord rich presence in js with full customisation
 | startTimestamp          | This is to setup the start time with timestamp. You can get timestamp [here](https://www.epochconverter.com/) <br> You can only have start or end. Not both at the same time. |
 | endTimestamp            | This is to setup the countdown with timestamp. You can get timestamp [here](https://www.epochconverter.com/) <br> You can only have start or end. Not both at the same time.  |
 | partySize <br> partyMax | This is two numbers on the right of the state, you must activate both and Size need to be < or = than Max. <br> You need to have a state active.                              |
+| partyId <br> matchSecret <br> joinSecret <br> spectateSecret | Strange stuff for create buttons with party, but they are not usable, you can't use this with custom buttons |
